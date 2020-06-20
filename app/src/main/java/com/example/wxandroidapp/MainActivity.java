@@ -12,8 +12,10 @@ import android.webkit.WebViewClient;
 import android.widget.Toast;
 
 import com.example.wxandroidapp.file.ShareFileActivity;
+import com.example.wxandroidapp.game.GameActivity;
 import com.example.wxandroidapp.music.ShareMusicActivity;
 import com.example.wxandroidapp.picture.SharePictureActivity;
+import com.example.wxandroidapp.qingming.QingmingActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -96,10 +98,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void jumpQingming(View view) {
-        ShareFileActivity.actionStart(this);
+        QingmingActivity.actionStart(this);
     }
 
     public void jumpGame(View view) {
-        ShareFileActivity.actionStart(this);
+        GameActivity.actionStart(this);
     }
 }

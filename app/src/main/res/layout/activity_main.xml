@@ -80,9 +80,9 @@
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        app:cardBackgroundColor="@color/paleturquoise"
+        app:cardBackgroundColor="@color/lightpink"
         app:cardCornerRadius="20dp"
-        android:onClick="jumpFile">
+        android:onClick="jumpQingming">
 
         <TextView
             android:layout_width="match_parent"
@@ -101,9 +101,9 @@
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        app:cardBackgroundColor="@color/paleturquoise"
+        app:cardBackgroundColor="@color/lightgoldenrodyellow"
         app:cardCornerRadius="20dp"
-        android:onClick="jumpFile">
+        android:onClick="jumpGame">
 
         <TextView
             android:layout_width="match_parent"
