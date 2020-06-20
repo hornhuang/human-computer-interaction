@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆</title>
+    <link rel="stylesheet" href="../css/loadingCss.css">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <div class="topTab">
+        <h3 id="h3">网上零食商城</h3>
+    </div>
+    <div class="bodyLoading">
+        <div class="headImg">
+            < img src="../img/1.jpg" alt="">
+        </div>
+        <div class="informationInput">
+            <div class="inputStyle"><input id="name" type="text" value="请输入账号"></div>
+            <div class="inputStyle"><input type="password" value="请输入密码"></div>
+            <div class="inputStyle" id="loadings" >
+                <a ></a ><span >登&nbsp;陆</span>
+            </div>
+        </div>
+
+        <div class="bottomOth">
+            <a ></a ><span id="registrations1" onclick = "window.Android.loading()" >注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;册</span>
+            <a ></a ><span id="registrations2">忘记密码</span>
+        </div>
+    </div>
+
+</div>
+
+<script >
+
+
+    function loading() {
+        var test = document.getElementById("name").value;
+        var h =document.getElementById("h3");
+        h.innerHTML = "欢迎: " + test;
+    }
+    document.getElementById("loadings").onclick = window.Android.loading();
+
+    function registration1() {
+        alert("不可能注册")
+    }
+    document.getElementById("registrations1").onclick = window.android.registration1() ;
+
+    function registration2() {
+        alert("不可能修改密码")
+    }
+    document.getElementById("registrations1").onclick = window.android.registration2();
+</script>
+</body>
+</html>
