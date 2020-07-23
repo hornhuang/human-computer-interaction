@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import com.example.wxandroidapp.file.ShareFileActivity;
 import com.example.wxandroidapp.game.GameActivity;
-import com.example.wxandroidapp.music.ShareMusicActivity;
+import com.example.wxandroidapp.music.activity.ShareMusicActivity;
 import com.example.wxandroidapp.picture.SharePictureActivity;
 import com.example.wxandroidapp.qingming.QingmingActivity;
 
