@@ -52,7 +52,6 @@
     <!--闪屏广告-->
     <style name="AppTheme.NoActionBarWithBackGround" parent="NoActionBarAppTheme">
         <item name="windowNoTitle">true</item>
-        <item name="android:windowFullscreen">true</item>//设置全屏
         <item name="android:windowBackground">@drawable/splash_bac</item>//设置背景
     </style>
 

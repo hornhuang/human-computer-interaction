@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.mindhlju.ad.AdActivity">
+    android:fitsSystemWindows="true">
 
     <TextView
         android:id="@+id/time_count"
@@ -14,6 +14,7 @@
         android:layout_margin="20dp"
         android:gravity="center"
         android:textColor="@color/white"
+        android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
