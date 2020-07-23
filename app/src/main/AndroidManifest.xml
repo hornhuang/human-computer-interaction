@@ -16,7 +16,8 @@
         <activity android:name=".file.PDFDetailActivity" />
         <activity android:name=".picture.PictureDetailActivity" />
         <activity android:name=".picture.SharePictureActivity" />
-        <activity android:name=".music.ShareMusicActivity" />
+        <activity android:name=".music.activity.ShareMusicActivity"
+            android:theme="@style/MusicActTheme"/>
         <activity android:name=".file.ShareFileActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -26,6 +27,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name=".music.service.MusicService"
+            android:enabled="true"
+            android:exported="false"
+            />
     </application>
 
 </manifest>
