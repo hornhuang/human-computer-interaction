@@ -27,13 +27,13 @@ class GameActivity : AppCompatActivity() {
         actionBar?.setDisplayHomeAsUpEnabled(true)
         // 去掉logo图标
         actionBar?.setDisplayShowHomeEnabled(false)
-        actionBar?.title = "分享图片"
+        actionBar?.title = "游戏 2048"
 
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
         }
-//        asd.setOnClickListener({ System.out.println("(.java:24)" + "" + "-- > " + it!!.toString()) })
+
         gameview2048.setOnGameNotifyListener(object : GameView2048.OnGameNotifyListener {
             override fun onscore(score: Int) {
                 score_now.text = "" + score;
