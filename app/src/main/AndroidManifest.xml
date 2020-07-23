@@ -11,15 +11,8 @@
         android:roundIcon="@mipmap/app_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.mindhlju.qingming.QingmingActivity"></activity>
-        <activity android:name="com.example.mindhlju.game.GameActivity" />
-        <activity android:name="com.example.mindhlju.file.PDFDetailActivity" />
-        <activity android:name="com.example.mindhlju.picture.PictureDetailActivity" />
-        <activity android:name="com.example.mindhlju.picture.SharePictureActivity" />
-        <activity android:name="com.example.mindhlju.music.activity.ShareMusicActivity"
-            android:theme="@style/MusicActTheme"/>
-        <activity android:name="com.example.mindhlju.file.ShareFileActivity" />
-        <activity android:name="com.example.mindhlju.MainActivity">
+        <activity android:name=".ad.AdActivity"
+            android:theme="@style/AppTheme.NoActionBarWithBackGround">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -27,12 +20,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".qingming.QingmingActivity" />
+        <activity android:name=".game.GameActivity" />
+        <activity android:name=".file.PDFDetailActivity" />
+        <activity android:name=".picture.PictureDetailActivity" />
+        <activity android:name=".picture.SharePictureActivity" />
+        <activity
+            android:name=".music.activity.ShareMusicActivity"
+            android:theme="@style/MusicActTheme" />
+        <activity android:name=".file.ShareFileActivity" />
+        <activity android:name=".MainActivity"></activity>
 
         <service
-            android:name="com.example.mindhlju.music.service.MusicService"
+            android:name=".music.service.MusicService"
             android:enabled="true"
-            android:exported="false"
-            />
+            android:exported="false" />
     </application>
 
 </manifest>
