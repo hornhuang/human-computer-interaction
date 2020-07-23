@@ -8,7 +8,7 @@
 
 - 分为三部分，三个部分对因下方三个内容介绍
 
-- 具体要求详见实验讲义，实验讲义如下：[点击此处跳转到实验讲义部分]()
+- 具体要求详见实验讲义，实验讲义如下：[点击此处跳转到实验讲义部分](https://github.com/hornhuang/human_computer_interaction#%E4%BA%BA%E6%9C%BA%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E6%96%B9%E6%B3%95%E5%AE%9E%E9%AA%8C%E8%AE%B2%E4%B9%89)
 
 ## 实验一
 
