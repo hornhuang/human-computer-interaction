@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.wxandroidapp">
+    package="com.example.mindhlju">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,15 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".qingming.QingmingActivity"></activity>
-        <activity android:name=".game.GameActivity" />
-        <activity android:name=".file.PDFDetailActivity" />
-        <activity android:name=".picture.PictureDetailActivity" />
-        <activity android:name=".picture.SharePictureActivity" />
-        <activity android:name=".music.activity.ShareMusicActivity"
+        <activity android:name="com.example.mindhlju.qingming.QingmingActivity"></activity>
+        <activity android:name="com.example.mindhlju.game.GameActivity" />
+        <activity android:name="com.example.mindhlju.file.PDFDetailActivity" />
+        <activity android:name="com.example.mindhlju.picture.PictureDetailActivity" />
+        <activity android:name="com.example.mindhlju.picture.SharePictureActivity" />
+        <activity android:name="com.example.mindhlju.music.activity.ShareMusicActivity"
             android:theme="@style/MusicActTheme"/>
-        <activity android:name=".file.ShareFileActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.mindhlju.file.ShareFileActivity" />
+        <activity android:name="com.example.mindhlju.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -29,7 +29,7 @@
         </activity>
 
         <service
-            android:name=".music.service.MusicService"
+            android:name="com.example.mindhlju.music.service.MusicService"
             android:enabled="true"
             android:exported="false"
             />
