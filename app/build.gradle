@@ -33,7 +33,7 @@ dependencies {
     implementation 'androidx.palette:palette:1.0.0'
 
     // PDF
-    implementation 'com.joanzapata.pdfview:android-pdfview:1.0.4@aar'
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
 
     // glide
     implementation 'com.github.bumptech.glide:glide:4.11.0'

@@ -21,13 +21,30 @@
         app:cardCornerRadius="20dp"
         android:onClick="jumpPicture">
 
-        <TextView
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="分享图片"
-            android:textColor="@color/white"
-            android:textSize="35sp" />
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/share_pics"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="分享图片"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:background="@color/translucency_black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
 
@@ -42,13 +59,30 @@
         app:cardCornerRadius="20dp"
         android:onClick="jumpMusic">
 
-        <TextView
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="分享音乐"
-            android:textColor="@color/white"
-            android:textSize="35sp"/>
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/share_musics"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="分享音乐"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:background="@color/translucency_black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
 
@@ -63,13 +97,30 @@
         app:cardCornerRadius="20dp"
         android:onClick="jumpFile">
 
-        <TextView
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="分享文件"
-            android:textColor="@color/white"
-            android:textSize="35sp" />
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/share_fliles"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="分享文件"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:background="@color/translucency_black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
 
@@ -84,13 +135,30 @@
         app:cardCornerRadius="20dp"
         android:onClick="jumpQingming">
 
-        <TextView
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="清明上河图"
-            android:textColor="@color/white"
-            android:textSize="35sp" />
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/share_qingming"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="清明上河图"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:background="@color/translucency_black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
 
@@ -105,13 +173,30 @@
         app:cardCornerRadius="20dp"
         android:onClick="jumpGame">
 
-        <TextView
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="弹珠游戏"
-            android:textColor="@color/white"
-            android:textSize="35sp" />
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/share_games"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="游戏 2048"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:background="@color/translucency_black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
 
