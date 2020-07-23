@@ -10,7 +10,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/app_icon"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:networkSecurityConfig="@xml/network_security_config">
         <activity android:name=".ad.AdActivity"
             android:theme="@style/AppTheme.NoActionBarWithBackGround">
             <intent-filter>
@@ -21,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".qingming.QingmingActivity" />
-        <activity android:name=".game.GameActivity" />
+        <activity android:name=".game.GameActivity.GameActivity" android:theme="@style/NoActionBarAppTheme"/>
         <activity android:name=".file.PDFDetailActivity" />
         <activity android:name=".picture.PictureDetailActivity" />
         <activity android:name=".picture.SharePictureActivity" />

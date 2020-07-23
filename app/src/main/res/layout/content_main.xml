@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <include layout="@layout/content" />
+
+    <com.example.mindhlju.game.GameView2048
+        android:id="@+id/gameview2048"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:background="#ece7e7"
+        android:alignmentMode="alignBounds"
+        android:orientation="horizontal"
+        android:useDefaultMargins="false">
+
+    </com.example.mindhlju.game.GameView2048>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ece7e7"
+        android:visibility="gone"
+        android:alignmentMode="alignBounds"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="6"
+        android:useDefaultMargins="false">
+
+        <TextView
+            android:gravity="right|bottom"
+            android:text="0"
+            android:layout_columnSpan="4"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="3" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="AC"
+            android:textColor="#f68904"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="退格"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="/"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="*"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="7"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="8"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="9"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="—"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="4"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="5"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="6"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="+"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="1"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="2"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="3"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#f68904"
+            android:gravity="center"
+            android:text="="
+            android:textColor="#ffffff"
+            android:layout_columnWeight="1"
+            android:layout_rowSpan="2"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="%"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="0"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="."
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
+    </GridLayout>
+
+</RelativeLayout>

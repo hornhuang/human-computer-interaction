@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分数:"
+        android:textColor="#ef0808"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/score_now"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:text="0"
+        android:textColor="#061ca6"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="最高分:"
+        android:textColor="#ef0808"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/score_history_best"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:text="0"
+        android:textColor="#061ca6"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/revoke"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:background="#ff3300"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="后退一步"
+        android:textColor="#fff" />
+</LinearLayout>

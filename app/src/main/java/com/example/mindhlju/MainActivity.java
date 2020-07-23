@@ -8,7 +8,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.example.mindhlju.file.ShareFileActivity;
-import com.example.mindhlju.game.GameActivity;
+import com.example.mindhlju.game.GameActivity.GameActivity;
 import com.example.mindhlju.music.activity.ShareMusicActivity;
 import com.example.mindhlju.picture.SharePictureActivity;
 import com.example.mindhlju.qingming.QingmingActivity;
@@ -62,6 +62,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void jumpGame(View view) {
-        GameActivity.actionStart(this);
+        GameActivity.Companion.actionStart(this);
     }
 }
